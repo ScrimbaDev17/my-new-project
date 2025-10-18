@@ -1,1 +1,94 @@
-# My New Project
+:root {
+	--bg-color: #f9f9f9;
+	--text-color: #222;
+	--accent: #0078ff;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: "segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.6;
+	color: var(--text-color);
+	background: var(--bg-color);
+	scroll-behavior: smooth;
+}
+
+
+/*NAVBAR SECTION*/
+header {
+	background: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, ,0.1);
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 110px;
+	margin: auto;
+	padding: 1rem;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+
+nav .logo {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: var(--accent);
+}
+
+nav ul li {
+	margin-left: 1.5rem;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: var(--text-color);
+	font-weight: 500;
+	transition: color 0.3s;
+}
+
+
+/* HERO SECTION */
+#hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(120deg, #0078ff, #00d4ff);
+	text-align: center;
+}
+
+.hero-content h1 {
+	font-size: 2.5rem;
+}
+
+.hero-content p {
+	margin-top: 0.5rem;
+	font-size: 1.2rem;
+}
+
+
+/*About SECTION */
+#about {
+	text-align: center;
+	margin-top: 0.5rem;
+}
+
+
+
+
